@@ -22,7 +22,7 @@ const SearchParams = () => {
     );
     const json = await res.json();
 
-    setPets(json.pets);
+    setPets(json.pets); // pets are set to what the API fetches
   }
 
   return (
